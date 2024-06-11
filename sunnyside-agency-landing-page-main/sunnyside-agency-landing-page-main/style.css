@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header{
+    overflow: hidden;
+    background-color: #2596be;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header a.logo{
+    color: white;
+    font-size: 2rem;
+}
+
+.header-right a{
+    text-align: center;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 1rem;
+}
+
+.header-right a.contact{
+    color: hsl(198, 62%, 26%);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    background-color: white;
+}
+
+/* About */
+
+.about{
+    height: 60vh;
+    background-color: #2596be;
+}
+
+
+
